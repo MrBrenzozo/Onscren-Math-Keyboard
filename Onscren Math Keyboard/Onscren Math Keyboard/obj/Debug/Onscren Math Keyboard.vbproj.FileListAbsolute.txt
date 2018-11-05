@@ -1,0 +1,16 @@
+C:\Users\MrBrenzo\source\repos\Onscren Math Keyboard\Onscren Math Keyboard\bin\Debug\Onscren Math Keyboard.exe.config
+C:\Users\MrBrenzo\source\repos\Onscren Math Keyboard\Onscren Math Keyboard\bin\Debug\Onscren Math Keyboard.exe
+C:\Users\MrBrenzo\source\repos\Onscren Math Keyboard\Onscren Math Keyboard\bin\Debug\Onscren Math Keyboard.pdb
+C:\Users\MrBrenzo\source\repos\Onscren Math Keyboard\Onscren Math Keyboard\bin\Debug\Onscren Math Keyboard.xml
+C:\Users\MrBrenzo\source\repos\Onscren Math Keyboard\Onscren Math Keyboard\obj\Debug\Onscren Math Keyboard.vbprojAssemblyReference.cache
+C:\Users\MrBrenzo\source\repos\Onscren Math Keyboard\Onscren Math Keyboard\obj\Debug\Onscren_Math_Keyboard.frmMain.resources
+C:\Users\MrBrenzo\source\repos\Onscren Math Keyboard\Onscren Math Keyboard\obj\Debug\Onscren_Math_Keyboard.Resources.resources
+C:\Users\MrBrenzo\source\repos\Onscren Math Keyboard\Onscren Math Keyboard\obj\Debug\Onscren Math Keyboard.vbproj.GenerateResource.cache
+C:\Users\MrBrenzo\source\repos\Onscren Math Keyboard\Onscren Math Keyboard\obj\Debug\Onscren Math Keyboard.vbproj.CoreCompileInputs.cache
+C:\Users\MrBrenzo\source\repos\Onscren Math Keyboard\Onscren Math Keyboard\obj\Debug\Onscren Math Keyboard.exe
+C:\Users\MrBrenzo\source\repos\Onscren Math Keyboard\Onscren Math Keyboard\obj\Debug\Onscren Math Keyboard.xml
+C:\Users\MrBrenzo\source\repos\Onscren Math Keyboard\Onscren Math Keyboard\obj\Debug\Onscren Math Keyboard.pdb
+C:\Users\MrBrenzo\source\repos\Onscren Math Keyboard\Onscren Math Keyboard\bin\Debug\Onscren Math Keyboard.exe.manifest
+C:\Users\MrBrenzo\source\repos\Onscren Math Keyboard\Onscren Math Keyboard\bin\Debug\Onscren Math Keyboard.application
+C:\Users\MrBrenzo\source\repos\Onscren Math Keyboard\Onscren Math Keyboard\obj\Debug\Onscren Math Keyboard.exe.manifest
+C:\Users\MrBrenzo\source\repos\Onscren Math Keyboard\Onscren Math Keyboard\obj\Debug\Onscren Math Keyboard.application
