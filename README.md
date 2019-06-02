@@ -1,1 +1,1 @@
-
+This is an onscreen math keyboard for touchscreen computers. it only sends keystrokes to programs, so it can be adapted to any program that uses macros trigered by keystrokes. I have programmed it to initiate macros in microsoft word.
