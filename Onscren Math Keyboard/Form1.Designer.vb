@@ -27,22 +27,28 @@ Partial Class frmMain
         '
         'cboWindows
         '
+        Me.cboWindows.DropDownHeight = 500
         Me.cboWindows.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboWindows.DropDownWidth = 220
+        Me.cboWindows.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboWindows.FormattingEnabled = True
+        Me.cboWindows.IntegralHeight = False
+        Me.cboWindows.ItemHeight = 18
         Me.cboWindows.Location = New System.Drawing.Point(0, 0)
+        Me.cboWindows.Margin = New System.Windows.Forms.Padding(1, 9, 1, 9)
         Me.cboWindows.Name = "cboWindows"
-        Me.cboWindows.Size = New System.Drawing.Size(290, 28)
+        Me.cboWindows.Size = New System.Drawing.Size(350, 26)
         Me.cboWindows.TabIndex = 0
         '
         'frmMain
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 84.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1920, 142)
+        Me.ClientSize = New System.Drawing.Size(1884, 146)
         Me.Controls.Add(Me.cboWindows)
-        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Font = New System.Drawing.Font("Cambria Math", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Margin = New System.Windows.Forms.Padding(4, 33, 4, 33)
         Me.Name = "frmMain"
         Me.Text = "Math Keyboard"
         Me.ResumeLayout(False)

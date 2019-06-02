@@ -68,49 +68,55 @@ Alias "SetForegroundWindow" (ByVal hwnd As Integer) As Integer
 
 
         ' Row One
-        KeyboardButton(100, 70, 0, 350, "(x-y)(x+y)", "^" + "6") 'binomial rule
-        KeyboardButton(70, 70, 0, 450, "( )", "%" + "8")
-        KeyboardButton(70, 70, 0, 520, "{ }", "%" + "c")
-        KeyboardButton(70, 70, 0, 590, ChrW(&H3C), "%" + "a") 'less than
-        KeyboardButton(70, 70, 0, 660, ChrW(&H3E), "%" + "o") 'greater than
-        KeyboardButton(70, 70, 0, 730, ChrW(&H2260), "%" + "e") 'not equal
-        KeyboardButton(70, 70, 0, 800, "1 " + ChrW(&H2044) + " x", "%" + "9") 'reciprocal
-        KeyboardButton(70, 70, 0, 870, ChrW(&H221A), "%" + "6") 'radical
-        KeyboardButton(70, 70, 0, 940, "x" + ChrW(&H207F), "%" + "7") 'exponent
-        KeyboardButton(70, 70, 0, 1010, "Sin()", "^" + "%" + "0") ' sin
-        KeyboardButton(70, 70, 0, 1080, "Cos()", "^" + "%" + "q") ' cos
-        KeyboardButton(70, 70, 0, 1150, "Tan()", "^" + "%" + "w") ' tan
-        KeyboardButton(55, 70, 0, 1220, ChrW(&HB0), "^" + "%" + "4") 'degree
-        KeyboardButton(55, 70, 0, 1275, ChrW(&H3C0), "^" + "%" + "6") 'pi
-        KeyboardButton(55, 70, 0, 1330, ChrW(&H3C9), "^" + "%" + "x") 'omega
-        KeyboardButton(70, 70, 0, 1385, ChrW(&H2192), "^" + "%" + "9") 'arrow
+        KeyboardButton(130, 70, 0, 375, "(x-y)(x+y)", "^" + "6") 'binomial rule'
+        KeyboardButton(70, 70, 0, 505, "( )", "%" + "8")
+        KeyboardButton(70, 70, 0, 575, "{ }", "%" + "c")
+        KeyboardButton(70, 70, 0, 645, ChrW(&H3C), "%" + "a") 'less than
+        KeyboardButton(70, 70, 0, 715, ChrW(&H3E), "%" + "o") 'greater than
+        KeyboardButton(70, 70, 0, 785, ChrW(&H2260), "%" + "e") 'not equal
+        KeyboardButton(70, 70, 0, 855, ChrW(&H2155), "%" + "9") 'reciprocal
+        KeyboardButton(70, 70, 0, 925, ChrW(&H221A), "%" + "6") 'radical
+        KeyboardButton(70, 70, 0, 995, "x" + ChrW(&H207F), "%" + "7") 'exponent
+        KeyboardButton(80, 70, 0, 1065, "Sin()", "^" + "%" + "0") ' sin
+        KeyboardButton(80, 70, 0, 1145, "Cos()", "^" + "%" + "q") ' cos
+        KeyboardButton(80, 70, 0, 1225, "Tan()", "^" + "%" + "w") ' tan
+        KeyboardButton(55, 70, 0, 1305, ChrW(&HB0), "^" + "%" + "4") 'degree
+        KeyboardButton(55, 70, 0, 1360, ChrW(&H3C0), "^" + "%" + "6") 'pi
+        KeyboardButton(55, 70, 0, 1415, ChrW(&H3C9), "^" + "%" + "x") 'omega
+        KeyboardButton(70, 70, 0, 1470, ChrW(&H2192), "^" + "%" + "9") 'arrow
+        'KeyboardButton(70, 70, 0, 1540, ChrW(&H2211), "^" + "9") 'sigma
+        'KeyboardButton(70, 70, 0, 1610, ChrW(&H222B), "^" + "t") 'integral
+        'KeyboardButton(70, 70, 0, 1680, " ", "%" + "+" + "5") 'unused
+
 
 
 
         ' Row Two
         KeyboardButton(95, 70, 50, 0, "Pythag" & vbCrLf & "Theroem", "^" + "4")
-        KeyboardButton(95, 70, 50, 95, "Quadratic" & vbCrLf & "Equation", "^" + "3")
-        KeyboardButton(90, 70, 50, 190, "log" + ChrW(&H2090) + "(x)=n", "%" + "v") 'Logarithm
-        KeyboardButton(70, 70, 50, 280, ChrW(&H192) + "(x)=", "^" + "8") 'f(x)
+        KeyboardButton(105, 70, 50, 95, "Quadratic" & vbCrLf & "Equation", "^" + "3")
+        KeyboardButton(90, 70, 50, 200, "log" + ChrW(&H2090) + "(x)=n", "%" + "v") 'Logarithm
+        KeyboardButton(85, 70, 50, 290, ChrW(&H192) + "(x)={", "^" + "8") 'f(x)
 
 
-        KeyboardButton(100, 70, 70, 350, "x" + ChrW(&HB2) + " + 2xy + y" + ChrW(&HB2), "^" + "7") 'other binomial rule
-        KeyboardButton(70, 70, 70, 450, "| |", "%" + "i")
-        KeyboardButton(70, 70, 70, 520, "[ ]", "%" + "x")
-        KeyboardButton(70, 70, 70, 590, ChrW(&H2264), "%" + "k") 'less than or equal too
-        KeyboardButton(70, 70, 70, 660, ChrW(&H2265), "%" + "d") 'greater than or equal too
-        KeyboardButton(70, 70, 70, 730, ChrW(&H2248), "%" + "t") ' approximate
-        KeyboardButton(70, 70, 70, 800, "  x " + ChrW(&H2044) + "  y", "%" + "0") 'fraction
-        KeyboardButton(70, 70, 70, 870, ChrW(&H2213), "%" + "u") 'plus or minus
-        KeyboardButton(70, 70, 70, 940, "x" + ChrW(&H2099), "%" + "b") 'subscript
-        KeyboardButton(70, 70, 70, 1010, "Sec()", "^" + "%" + "h")
-        KeyboardButton(70, 70, 70, 1080, "Csc()", "^" + "%" + "g")
-        KeyboardButton(70, 70, 70, 1150, "Cot()", "^" + "%" + "a")
-        KeyboardButton(55, 70, 70, 1220, ChrW(&H2220), "^" + "%" + "8") ' Angle
-        KeyboardButton(55, 70, 70, 1275, ChrW(&H3B8), "^" + "%" + "j") 'theta
-        KeyboardButton(55, 70, 70, 1330, ChrW(&H3BC), "^" + "%" + "5") 'micro
-        KeyboardButton(70, 70, 70, 1385, ChrW(&H221E), "^" + "%" + "7") 'infinity
-
+        KeyboardButton(130, 70, 70, 375, "x" + ChrW(&HB2) + " + 2xy + y" + ChrW(&HB2), "^" + "7") 'other binomial rule
+        KeyboardButton(70, 70, 70, 505, "| |", "%" + "i")
+        KeyboardButton(70, 70, 70, 575, "[ ]", "%" + "x")
+        KeyboardButton(70, 70, 70, 645, ChrW(&H2264), "%" + "k") 'less than or equal too
+        KeyboardButton(70, 70, 70, 715, ChrW(&H2265), "%" + "d") 'greater than or equal too
+        KeyboardButton(70, 70, 70, 785, ChrW(&H2248), "%" + "t") ' approximate
+        KeyboardButton(70, 70, 70, 855, ChrW(&H215C), "%" + "0") 'fraction
+        KeyboardButton(70, 70, 70, 925, ChrW(&H2213), "%" + "u") 'plus or minus
+        KeyboardButton(70, 70, 70, 995, "X" + ChrW(&H2099), "%" + "b") 'subscript
+        KeyboardButton(80, 70, 70, 1065, "Sec()", "^" + "%" + "h")
+        KeyboardButton(80, 70, 70, 1145, "Csc()", "^" + "%" + "g")
+        KeyboardButton(80, 70, 70, 1225, "Cot()", "^" + "%" + "a")
+        KeyboardButton(55, 70, 70, 1305, ChrW(&H2220), "^" + "%" + "8") ' Angle
+        KeyboardButton(55, 70, 70, 1360, ChrW(&H3B8), "^" + "%" + "j") 'theta
+        KeyboardButton(55, 70, 70, 1415, ChrW(&H3BC), "^" + "%" + "5") 'micro
+        KeyboardButton(70, 70, 70, 1470, ChrW(&H221E), "^" + "%" + "7") 'infinity
+        'KeyboardButton(70, 70, 70, 1540, ChrW(&H394), "%" + "+" + "t") 'delta
+        'KeyboardButton(70, 70, 70, 1610, " ", "^" + "%" + "7") 'unused
+        'KeyboardButton(70, 70, 70, 1680, " ", "^" + "%" + "7") 'unued
 
 
 
